@@ -1,0 +1,48 @@
+body {
+  padding-top: 5rem;
+}
+.kuplat {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.kupla {
+  position: relative;
+  background-color:#ddd;
+  margin: 0;
+  margin-top: 20px;
+  padding:20px;
+  text-align: left;
+  font-size: 1.2em;
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
+  -webkit-box-shadow: 0px 0 3px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0px 0 3px rgba(0,0,0,0.25);
+  box-shadow: 0px 0 3px rgba(0,0,0,0.25);
+}
+
+.kupla:after {
+  position: absolute;
+  display: block;
+  content: "";
+  border-color: #ddd transparent transparent transparent;
+  border-style: solid;
+  border-width: 10px;
+  height:0;
+  width:0;
+  position:absolute;
+  bottom:-19px;
+  left:1em;
+}
+.sender {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+}
+#logo {
+  height: 45px;
+}
+.poista, .julkaise, .piilota {
+    cursor: pointer;
+}

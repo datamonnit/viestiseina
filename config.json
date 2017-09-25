@@ -1,0 +1,9 @@
+{
+  "database":{
+    "username":"viestiUser",
+    "password":"qwerty",
+    "host":"localhost",
+    "port":"3306",
+    "schema":"viestiseina"
+  }
+}
